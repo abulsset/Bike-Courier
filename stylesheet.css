@@ -1,0 +1,109 @@
+        /* Tess Luba-  July 2022  */   
+
+        header {
+            text-align: center;
+            margin: auto;
+            font-variant: small-caps;
+        }
+        body {
+            width:800px;
+		    margin-left:auto;
+            margin-right:auto;
+		    text-align:center;
+            font-size: 15pt;
+        }
+        #board {
+            border: 2px solid black;
+            border-radius: 10pt;
+            display: none;
+            background-color: lightblue;
+        }
+        #start {
+            font-variant: small-caps;
+        }
+        button {
+            padding: 5px;
+            background-color:bisque;
+            font-size: 15pt;
+        }
+        #score {
+            font-size: 15pt;
+            display: none;
+            font-variant: small-caps;
+        }
+        #text {
+            animation-name: begin;
+            animation-duration: 5s;
+        }
+
+        @keyframes begin {
+            from {font-size: 0pt;}
+            to  {font-size: 25pt;}
+        }
+
+        .bike {
+            animation: ani 15s ;
+        }
+
+        @keyframes ani {
+            0% { transform: scale(0); }
+            25%, 100% { transform: scale(1); }
+        }
+        #instructions {
+            display: none;
+            font-size: 15pt;
+        }
+
+header {
+    text-align: center;
+    margin: auto;
+    font-variant: small-caps;
+}
+body {
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    font-size: 15pt;
+}
+#board {
+    border: 2px solid black;
+    border-radius: 10pt;
+    display: none;
+    background-color: lightblue;
+}
+#start {
+    font-variant: small-caps;
+}
+button {
+    padding: 5px;
+    background-color:bisque;
+    font-size: 15pt;
+}
+#score {
+    font-size: 15pt;
+    display: none;
+    font-variant: small-caps;
+}
+#text {
+    animation-name: begin;
+    animation-duration: 5s;
+}
+
+@keyframes begin {
+    from {font-size: 0pt;}
+    to  {font-size: 25pt;}
+}
+
+.bike {
+    animation: ani 15s ;
+}
+
+@keyframes ani {
+    0% { transform: scale(0); }
+    25%, 100% { transform: scale(1); }
+}
+#instructions {
+    display: none;
+    font-size: 15pt;
+}
